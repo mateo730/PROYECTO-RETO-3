@@ -1,0 +1,47 @@
+html, body{
+	height: 100%;
+}
+
+img{
+    max-width: 100%;
+    align-items: center;
+}
+
+/*cover*/
+
+.contenido-seccion{
+    padding: 5rem 0;
+}
+
+#servicios{
+    background: #ffffff center center no-repeat;
+	background-size: cover;
+
+}
+
+#nosotros{
+    background: #343a40 center center no-repeat;
+	background-size: cover;
+
+}
+
+h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.boton_personalizado{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: brown;
+    border-radius: 6px;
+    border: 2px solid #000000;
+  }
+  .boton_personalizado:hover{
+    color: brown;
+    background-color: #ffffff;
+  }
